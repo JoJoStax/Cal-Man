@@ -9,3 +9,11 @@ fn main() {
 	println!("Today is: {}", today);
 	println!("The current time is: {}", time);
 }
+
+struct Calendar {
+  date: Zoned,
+  time: Zoned,
+  title: String,
+  fields: Vec<String>,
+}
+
